@@ -1,0 +1,533 @@
+/* https://www.fitnessfirst.com.au/ */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+    transition: all 0.5s ease;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 80px;
+    right:20px;
+    z-index: 99;
+}
+
+.arrow{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    color: aliceblue;
+    z-index: 99;
+}
+
+/* SILDER */
+.slider-container{
+     position: relative;
+}
+ 
+.arrow-silder{
+     cursor: pointer;
+     position: absolute;
+     top: 45%;
+     color: black;
+     background-color: rgb(226, 223, 223,0.5);
+     padding: 8px 20px;
+     border-radius: 50%;
+     font-size: 25px;
+     font-weight: bold;
+}
+ 
+.next{
+     right: 10px;
+}
+ 
+.pre{
+     left: 10px;
+}
+ 
+.caption{
+     color:white;
+     font-size: 30px;
+     font-weight:bold;
+     position: absolute;
+     bottom: 200px;
+     text-align: center;
+     width: 100%;
+     padding: 15px 0px;
+     
+}
+/* NAVIGATION BAR */
+.logo{
+    padding-left: 70px;
+    font-style: italic;
+}
+
+.menu1.sticky{
+    background-color: black;
+}
+
+nav li a{
+    text-decoration: none;
+    font-family: 'Carter One', cursive;
+    color: white;
+    font-style: italic;
+}
+
+nav li{
+    font-style: italic;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+nav{
+    width: 70%;
+    padding-top: 40px;
+}
+
+nav li a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.8s ease;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+/* SECTION--2 */
+
+.cont2{
+    color: red;
+    font-size: 50px;
+}
+
+.cont{
+    color: white;
+    font-size: 50px;
+    font-weight: 30px;
+}
+
+.imgcont{
+    text-align: center;
+    padding-top: 250px;
+}
+
+/* SECTION--3 */
+
+.section3{
+    margin-top: 70px;
+}
+
+.head:after{
+    content: "";
+    width: 70%;
+    height: 1px;
+    display: block;
+    background: red;
+    position: absolute;
+    right: 80px;
+}
+
+span{
+    color: red;
+}
+
+.head{
+    font-family: 'Anton', sans-serif;
+    padding-left: 80px;
+    letter-spacing: 3px;
+    padding-top: 40px;
+}
+
+.sect3img{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.mma1:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px grey;   
+}
+
+/* SECTION COMBINE */
+
+.combine{
+    background-color: rgb(240, 237, 237);
+}
+
+/* SECTION--4 */
+
+.section4{
+    margin-top: 70px;
+}
+.sect4cont{
+    width: 50%;
+    word-spacing: 5px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    margin-top: 100px;
+}
+
+
+.sect4cont2{
+    margin-top: 70px;
+    margin-right: 50px;
+}
+
+.sect4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sect4img::before{
+    content: "";
+    background-color: rgb(255, 36, 36);
+    width: 350px;
+    height: 350px;
+    transform: rotate(-20deg);
+    position: absolute;
+}
+
+.sect4cont2 img{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+/* SECTION--5 */
+.section5{
+    margin-top: 80px;
+}
+
+.sect5list ul li:before{
+    content: "\27A4";
+    color:red;
+    list-style-type: none;
+}
+
+.sect5list ul li{
+    list-style-type: none;
+}
+
+.sect5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.sect5cont1{
+    padding-top: 80px;
+}
+
+.sect5cont1 img{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    left: 30px;
+}
+
+.sect5list{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.sect5cont::before{
+    content: "";
+    background-color: rgb(255, 36, 36);
+    width: 350px;
+    height: 350px;
+    transform: rotate(-20deg);
+    position: absolute;
+    margin-left: 30px;
+}
+
+
+
+/* SECTION -- 6 */
+
+.section6{
+    margin-top: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%; 
+}
+
+h2{
+    font-size: 35px;
+    color: rgb(243, 61, 61);
+}
+
+.menu{
+    margin:24px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu a{
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 24px;
+    background-color: red;
+    color: black;
+    padding:8px 22px;
+}
+
+.box{
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+    
+}
+
+.store-item{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+}
+
+.store-item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-shadow:  7px 7px 20px grey;
+}
+
+
+/* SECTION -- 7 */
+.section7{
+    background-color: rgb(240, 237, 237);
+    margin-top: 80px;
+}
+.sect7list ul li:before{
+    content: "\27A4";
+    color:red;
+}
+
+.sect7list ul li{
+    list-style-type: none;
+}
+
+.sect7img::before{
+    content: "";
+    background-color: rgb(255, 36, 36);
+    width: 350px;
+    height: 350px;
+    transform: rotate(-20deg);
+    position: absolute;
+}
+
+.sect7cont{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.sect7cont2 img{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+.sect7{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.sect7cont{
+    width: 50%;
+}
+
+.sect7cont p{
+    font-family: 'Anton', sans-serif;
+}
+
+.sect7cont2{
+    margin-right: 50px;
+}
+
+/* SECTION -- 8 */
+
+.section8{
+    background-color: black;
+}
+.sect8cont{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.sect8cont form{
+    width: 20%;
+}
+
+.contact{
+    width: 30%;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    margin-top: 100px;
+    color:white;
+}
+
+.sect8cont img{
+    width: 350px;
+    height: 400px;  
+}
+
+.sect8cont h3{
+    color: red;
+    font-style: italic;
+}
+
+.contact li::before{
+    content: "\27A4";
+    color:red;
+    list-style-type:none;
+}
+
+form input{
+    margin:10px auto;
+    width: 100%;
+}
+
+form textarea{
+    margin-top: 10px;
+    width: 100%;
+}
+
+form button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.head1:after{
+    content: "";
+    width: 70%;
+    height: 1px;
+    display: block;
+    background: red;
+    position: absolute;
+    right: 80px;
+}
+
+span{
+    color: red;
+}
+
+.head1{
+    font-family: 'Anton', sans-serif;
+    padding-left: 80px;
+    letter-spacing: 3px;
+    padding-top: 40px;
+    color: white;
+}
+
+/* FOOTER */
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(36, 30, 30);
+    font-size: 18px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.rglogo{
+    margin:auto;
+    width: 900px;
+    height:300px;
+}
+
+
+/* POPUP */
+
+.popup{
+    background-color: white;
+    width: 400px;
+    padding: 0px 40px;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    z-index: 999;
+    border-radius: 5px;
+    display: none;
+    padding-bottom: 40px;
+}
+
+#close{
+    display: block;
+    background-color: transparent;
+    font-size: 30px;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.popup button{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    padding: 5px 0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.popup h1{
+    text-shadow: 5px 5px 5px grey;
+}
+
+
