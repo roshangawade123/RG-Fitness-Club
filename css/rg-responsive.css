@@ -1,3 +1,18 @@
+@media(max-width:400px){
+    .logo{
+        padding-left: 10px;
+    }
+
+    .sect5cont::before{
+        margin-left: 0px;
+    }
+
+    .sect5cont1 img{
+        left: 0px;
+    }
+}
+
+
 @media(max-width:875px){
 
     .hamburger{
@@ -42,9 +57,9 @@
     }
 
     .popup{
-        left: 22%;
+        left: 18%;
         top:30%;
-        width: 300px;
+        width: 250px;
     }
 
     /* section -- 2 */

@@ -246,6 +246,7 @@ span{
 
 .sect5cont1{
     padding-top: 80px;
+    /* margin-right: 0px; */
 }
 
 .sect5cont1 img{
@@ -363,6 +364,7 @@ h2{
     position: relative;
     width: 350px;
     height: 350px;
+    /* margin-left: 5px; */
 }
 
 .sect7{
@@ -381,7 +383,7 @@ h2{
 }
 
 .sect7cont2{
-    margin-right: 50px;
+    margin-right: 25px;
 }
 
 /* SECTION -- 8 */
@@ -488,7 +490,7 @@ footer{
     padding: 0px 40px;
     position: absolute;
     left: 35%;
-    top: 10%;
+    top: 20%;
     z-index: 999;
     border-radius: 5px;
     display: none;
