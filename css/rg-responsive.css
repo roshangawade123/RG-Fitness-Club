@@ -1,4 +1,4 @@
-@media(max-width:400px){
+@media  (min-width:400px){
     .logo{
         padding-left: 10px;
     }
@@ -98,13 +98,11 @@
     .sect5cont::before{
         width: 300px;
         height: 300px;
-        /* right: 120px; */
     }
 
     .sect5cont1 img{
         width: 300px;
         height: 300px;
-        /* right: 5px; */
     }
     .sect5list{
         font-size: 16px;
